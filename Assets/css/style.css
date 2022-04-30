@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap');
+*{
+    padding: 0;margin: 0;
+    box-sizing:border-box;
+    text-decoration:none;   
+}
+
+html{
+    margin:0 10%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.btn{
+    background-color: red;
+    padding: 4px 15px;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: .4rem;
+    border: .1rem solid red;
+}
+.btn:hover{
+    background-color: #fff;
+    color: red;
+    border: .1rem solid red;
+}
+
+header{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    
+}
+.logo{
+    font-size: 1.7rem;
+    color: #333;
+    font-weight:500;
+}
+.logo span{
+    color:red;
+}
+header nav a{
+    margin-left: 1rem;
+    color: rgb(100, 98, 98);
+}
+header nav a:hover{
+    color: red;
+}
+.home{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.home .text h2{
+    font-weight: 500;
+    margin: 1rem 0;
+    font-size: 2.9rem;
+    color: red;
+}
+.home .text .moringa-text{
+    font-size: 1.6rem;
+}
+.home .text .enroll{
+    margin-top: 2rem;
+
+}
+.home .text .enroll .explore{
+    margin-left: 1.5rem;
+    background-color: #fff;
+    color: red;
+    border: 1.8px solid red;
+}
+.home .text .enroll .explore:hover{
+    background-color: red;
+    color: #fff;
+}
+
+/* .home .right img{
+    padding: 2rem;
+} */
